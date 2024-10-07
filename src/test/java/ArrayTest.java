@@ -31,4 +31,14 @@ public class ArrayTest {
     assertEquals(obt[2], 100);
     
     }
+
+    public void testSetElemental(){
+        int arr[] = {1,2,3};
+        Array a = new Array(arr);
+        a.setElementAt(100, 2);
+        int obt[] = a.getArray();
+        assertEquals(obt[2],100);
+                
+        }
+
 }
