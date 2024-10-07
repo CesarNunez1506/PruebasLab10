@@ -1,5 +1,4 @@
-package com.mycompany.proyectoprueba;
-
+import com.mycompany.proyectoprueba.Array;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -15,7 +14,7 @@ public class ArrayTest {
     public void testoString(){
         int arr[]={1,2,3};
         Array a= new Array(arr);
-        assertEquals("1,2,3",a.toString());
+        assertEquals("1;2;3",a.toString());
     
     }
     
