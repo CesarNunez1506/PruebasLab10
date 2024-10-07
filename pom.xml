@@ -12,6 +12,12 @@
             <version>4.13.2</version>
             <type>jar</type>
         </dependency>
+        <dependency>
+            <groupId>org.kie.j2cl.tools</groupId>
+            <artifactId>junit-emul</artifactId>
+            <version>v20240622-2</version>
+            <type>pom</type>
+        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
