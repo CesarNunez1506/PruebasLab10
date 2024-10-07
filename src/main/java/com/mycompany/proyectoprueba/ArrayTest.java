@@ -20,6 +20,16 @@ public class ArrayTest {
     }
     
     @Test
-    public void testSetElemental(){
+    public void testSetElementAt() {
+    int arr[] = {1, 2, 3};
+    Array a = new Array(arr);
+    a.setElementAt(100, 2);
+
+    // obtener arreglo
+    int obt[] = a.getArray();
+
+    // corroborar que se actualizó la información
+    assertEquals(obt[2], 100);
+    
     }
 }
