@@ -1,4 +1,4 @@
-
+package com.mycompany.proyectoprueba;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
